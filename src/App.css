@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #1C154D;
+  height: 56px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+}
+
+.menuicon {
+  grid-column-start: 1;
+ 
+}
+
+.bookmarkicon {
+  grid-column-start: 2;
+}
+
+.settingsicon {
+  grid-column-start: 3;
+}
+
+.navbar img {
+  height: 24px;
+}
+
+
+
+.verses{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding:0 14% 10% 14%;
+}
+
+.toolbar {
+ height: 48px;
+ margin: 1ch;
+ background-color: #C2C3E3;
+ text-align: center;
+ border-radius: 18px;
+ position: -webkit-sticky; /* Safari */
+ position: sticky;
+ top: 0.5ch;
+}
+
+.bottombar {
+  position: fixed;
+  bottom: 0px;
+  height: 56px;
+  width: 100%;
+  background-color: #AFB6EF;
+}
